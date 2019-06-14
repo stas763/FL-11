@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="main">
+            <div id="container">
+                <div id="content" role="main">
+                    <!-- TODO: Content goes here -->
+                    <header>
+                        <img src="logo.png" alt="epam logo">
+                        <h1>HTML Elements</h1>
+                    </header>
+                    <hr>
+                    <nav>
+                        <a href="#"><b>Home</b></a>
+                        <a href="#"><b>Headers</b></a>
+                        <a href="#"><b>Text</b></a>
+                        <a href="#"><b>List</b></a>
+                        <a href="#"><b>Table</b></a>
+                        <a href="#"><b>Blockquotes</b></a>
+                    </nav>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet,
+                        <a href="#">test link</a>
+                        adipiscing elit.
+                        <strong>This is strong.</strong>
+                        Nullam dignissim convallis est. Quisque aliquam.
+                        <em>This is emphasized.</em>
+                        Donec faucibus. Nunc iaculis suscipit dui. 5
+                        <sup>3</sup> = 125.
+                        Water is H<sub>2</sub>O.
+                        Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
+                        <i>The New York Times</i>
+                        (That's a citation).
+                        <u>Underline.</u>
+                        Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+                    <p>Watch out for the abbreviations!
+                        <abbr title="Hyper Text Markup Language">HTML</abbr>
+                        and
+                        <abbr title="Cascading Style Sheets">CSS</abbr>
+                        are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim
+                        diam eget metus. To copy a file type
+                        <code>COPY</code>
+                        <i>filename.</i>
+                        <s>Dinner`s at 5:00.</s>
+                        <ins>Let's make that 7.</ins>
+                        This <s>text</s> has been struck.</p>
+                    <hr>
+                    <p>Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2,
+                        because we have to use only one h1 on the page, and it is commonly used inside header</p>
+                    <h2>Header 2</h2>
+                    <h3>Header 3</h3>
+                    <h4>Header 4</h4>
+                    <h5>Header 5</h5>
+                    <h6>Header 6</h6>
+                    <hr>
+                    <h2>Text formats</h2>
+                    <p>Article Text</p>
+
+                    <article class="">
+                        <h2>Article title</h2>
+                        <p>Article description</p>
+                    </article>
+                    <h3>Preformatted Text</h3>
+                    <pre>
+  <code>
+  <strong>Text</strong>
+    in a <strong>pre</strong> element
+      is displayed in a fixed-width
+  font, and it preserves
+  both           spaces and
+      line breaks
+  </code>
+</pre>
+                    <h3>This is code</h3>
+                    <pre>
+  <code>
+.wrapper {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+  </code>
+</pre>
+                    <h2>Unordered Product List</h2>
+                    <ul>
+                        <li>Eggs</li>
+                        <li>Meat
+                            <ul>
+                                <li>Chicken</li>
+                                <li>Beef</li>
+                                <li>Pork</li>
+                            </ul>
+                        <li>Milk</li>
+                    </ul>
+                    <h2>Ordered TODO List</h2>
+                    <ol>
+                        <li>Relax</li>
+                        <li>Finish homework
+                            <ol type="A">
+                                <li>Analyze requirements</li>
+                                <li>Create HTML page</li>
+                                <li>Upload to GitHub</li>
+                            </ol>
+                        </li>
+                        <li>Enjoy your day</li>
+                    </ol>
+                    <h3>Definition List</h3>
+                    <strong>HTML</strong>
+                    <p>HTML is the standard markup language for Web pages</p>
+                    <strong>CSS</strong>
+                    <p>CSS describes how HTML elements are to be displayed</p>
+                    <strong>JavaScript</strong>
+                    <p>JavaScript is the Programming Language for the Web</p>
+                    <p>
+                        <label for="language">Select option</label>
+                        <select id="language" name="language">
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JS">JS</option>
+                        </select>
+                    </p>
+                    <hr>
+                    <hr>
+                    <h2>Table</h2>
+                    <table>
+                        <tr>
+                            <th>Cities</th>
+                            <th>Technologies</th>
+                        </tr>
+                        <tr>
+                            <td>Lviv</td>
+                            <td>HTML</td>
+                        </tr>
+                        <tr>
+                            <td>Vinnytsia</td>
+                            <td>CSS</td>
+                        </tr>
+                        <tr>
+                            <td>Dnipro</td>
+                            <td>JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>Kharkiv</td>
+                            <td>Angular</td>
+                        </tr>
+                        <tr>
+                            <td>Kyiv</td>
+                            <td>ReactJS</td>
+                        </tr>
+                    </table>
+                    <h2>Blockquotes</h2>
+                    <p>Let's keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+                    <blockquote cite="https://www.brainyquote.com/authors/elon_musk">
+                        "If you go back a few hundred years, what we take for granted today would seem like magic-being able
+                        to talk to people over long distances, to transmit images, flying, accessing vast amounts of data
+                        like an oracle. These are all things that would have been considered magic a few hundred years ago."
+                        <p><a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a></p>
+                    </blockquote>
+                    <hr>
+                    <form>
+                        First name:<input type="text" name="name">
+                        <br>
+                        Second name:<input type="text" name="name">
+                        <br>
+                        Email:<input type="text" name="email">
+                        <br>
+                        Password:<input type="text" name="password">
+                        <br>
+                        <textarea name="name" rows="5" cols="40"></textarea>
+                        <br>
+                        <button type="button" name="button">Submit</button>
+                    </form>
+                    <footer>&#169; Copyright Epam Systems</footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
