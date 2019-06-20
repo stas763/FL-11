@@ -78,7 +78,7 @@
 }
 
 .tm-box-bg-title:hover {
-  background-color: #76cdd7;
+  background-color: lightskyblue;
   color: white;
   font-weight: bold;
 }
@@ -92,7 +92,7 @@ section, .tm-sidebar, #home {
 }
 
 .tm-banner {
-  background-color: #76cdd7;
+  background-color: lightskyblue;
 }
 
 .tm-banner-inner {
@@ -132,7 +132,7 @@ section, .tm-sidebar, #home {
   content: '';
   width: 0;
   height: 0;
-  border-top: 50px solid #76cdd7;
+  border-top: 50px solid lightskyblue;
   border-right: 50px solid transparent;
 }
 
@@ -225,7 +225,7 @@ li a {
 
 .form-control:focus {
   border: 2px solid lightskyblue;
-  background-color: #76cdd7;
+  background-color: lightskyblue;
   color: #fff;
 }
 
@@ -241,22 +241,22 @@ li a {
 
 textarea {
   resize: none;
-  border: #76cdd7;
+  border: lightskyblue;
 }
 
 .btn {
   background-color: white;
   float: right;
-  color: #76cdd7;
+  color: lightskyblue;
   border-radius: 0;
-  border: 2px solid #76cdd7;
+  border: 2px solid lightskyblue;
   padding: 15px 50px;
 }
 
 .btn:hover {
-  background-color: #76cdd7;
+  background-color: lightskyblue;
   color: white;
-  border: none;
+  border: 2px solid lightskyblue;
 }
 
 .tm-nav-item:hover {
