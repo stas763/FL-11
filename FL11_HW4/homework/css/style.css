@@ -181,6 +181,18 @@ main h2 span {
   background-size: cover;
 }
 
+.btn-news {
+  background-color: #097774;
+  text-align: center;
+  font-size: 10px;
+  width: 220px;
+  padding: 10px 0;
+  display: block;
+  margin: 35px auto 0;
+  color: #fff;
+  text-decoration: none;
+}
+
 .section_subscrible {
   background-color: #f3f3f3;
 }
