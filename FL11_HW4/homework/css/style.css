@@ -117,10 +117,6 @@ main h2 {
   font-weight: normal;
 }
 
-main h2 span {
-  font-weight: bold;
-}
-
 .grey_bg {
   background-color: #f3f3f3;
 }
