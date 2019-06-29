@@ -108,7 +108,7 @@ header a {
   width: 30%;
   float: left;
   font-size: 12px;
-  padding: 50px;
+  padding: 50px 50px 50px 20px;;
 }
 
 main h2 {
@@ -133,6 +133,7 @@ main h2 {
 
 .sample p {
   margin: 30px;
+  text-align: center;
 }
 
 .cards_section li {
