@@ -1,32 +1,123 @@
-/*
- * Feel free to change name of colors if you need it
- * Feel free to add new colors if you need it
- */
-:root {
-  --bg-color--dark: #0b192f;
-  --bg-color--header: #162b4d;
-  --link: #fff;
-  --link--hover: #b8b8b8;
-  --bg-footer-color: #162b4d;;
-}
 
 body {
   font-family: roboto;
-}
-.post-1 {
-	background: #B71757;
-}
-.post-2 {
-	background: #0D7E71;
-}
-.post-3 {
-	background: #b1660e;
-}
-.post-4 {
-	background: #d12767;
-}
-.post-5 {
-	background: #2d95bb;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-/* Your styles go here */
+.post-1 {
+  background: #B71757;
+}
+
+.post-2 {
+  background: #0D7E71;
+}
+
+.post-3 {
+  background: #b1660e;
+}
+
+.post-4 {
+  background: #d12767;
+}
+
+.post-5 {
+  background: #2d95bb;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 200;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 42px;
+  font-weight: 200;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.grid-articles {
+  color: #fff;
+}
+
+.grid-articles p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.news-1, .news-2 {
+  background: #fff;
+}
+
+html {
+  width: 1500px;
+  background-color: #0b192f;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #162b4d;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 200;
+}
+
+header .logo span {
+  color: #B71757;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #b8b8b8;
+}
+
+.logo>a:hover {
+  color: #b8b8b8;
+}
+
+nav a {
+  margin-right: 25px;
+  display: inline-block;
+  padding: 40px 10px;
+}
+
+.logo, nav {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.logo {
+  font-size: 45px;
+}
+
+.grid-news img {
+  width: 200px;
+  height: auto;
+}
+
+footer {
+  background-color: #162b4d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  color: grey;
+}
