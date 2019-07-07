@@ -7,6 +7,7 @@ const c2 = prompt('Enter values y for point C');
 
 const HALF = 2;
 
-const isMidpoint = parseInt(a1, 10) + parseInt(b1, 10) / HALF === parseInt(c1, 10) && (parseInt(a2, 10) + parseInt(b2, 10)) / HALF === parseInt(c2, 10);
+const isMidpoint = (parseInt(a1, 10) + parseInt(b1, 10)) / HALF === parseInt(c1, 10)
+&& (parseInt(a2, 10) + parseInt(b2, 10)) / HALF === parseInt(c2, 10);
 
-alert('Middle point result: ' + isMidpoint);
+console.log('Middle point result: ' + isMidpoint);
