@@ -9,5 +9,3 @@ const HALF = 2;
 
 const isMidpoint = (parseInt(a1, 10) + parseInt(b1, 10)) / HALF === parseInt(c1, 10)
 && (parseInt(a2, 10) + parseInt(b2, 10)) / HALF === parseInt(c2, 10);
-
-console.log('Middle point result: ' + isMidpoint);
