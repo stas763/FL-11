@@ -1,4 +1,7 @@
 //0. Write function, which returns array of numbers from string parameter.
+let one = 1;
+let two = 2;
+let three = 3;
 let five = 5;
 
 function getNumbers(string) {
@@ -39,3 +42,18 @@ function findTypes(...arg){
 console.log(findTypes('number'));
 //returns{'object':1, 'number':1, 'string':1}
 console.log(findTypes(null, five, 'hello'));
+
+// 2. Write function, which iterates over array and executes function on each element.
+
+
+function executeforEach(array, func) {
+  for (let n = 0; n < array.length; n++){
+    func(array[n]);
+  }
+}
+
+
+ // logs 1 2 3
+executeforEach([one,two,three], function(el) {
+console.log(el)
+});
