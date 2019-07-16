@@ -4,7 +4,7 @@ let finish = [];
 function getNumbers(string) {
   for (let n = 0; n<string.length; n++){
     if (!isNaN(+string[n])){
-      finish [finish.length]=+parseInt(string[n]);n++;
+      finish [finish.length] = parseInt(string[n]); n++;
     }
   }
   return finish;
