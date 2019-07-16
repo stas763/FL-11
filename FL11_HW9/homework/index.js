@@ -25,7 +25,7 @@ console.log(getNumbers('n1um3ber95'));
 function findTypes(...arg){
   let result={};
   for(let n = 0; n < arg.length; n++){
-    if (arguments[n] === null) {
+    if (arg[n] === null) {
       result[typeof arg[n]] = 1;
     } else if (!isNaN(arg[n])) {
       result[typeof arg[n]] = +arg[n].toString();
