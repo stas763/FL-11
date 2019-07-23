@@ -24,5 +24,12 @@ class Fighter {
     // console.log(health);
   }
 
+  attack() {
+    console.log('attack');
+  }
+
+  battle() {
+    console.log('battle');
+  }
 
 }
