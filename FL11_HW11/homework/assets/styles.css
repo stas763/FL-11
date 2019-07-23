@@ -1,2 +1,34 @@
-/* Your styles goes here */
+h1 {
+  text-align: center;
+  color: #40b5fe;
+}
 
+hr {
+  color: #c8d0d8;
+  background-color: #c8d0d8;
+  height: 2px;
+  border: none;
+}
+
+input {
+  width: 95%;
+  border: 2px solid #c8d0d8;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+button {
+  color: #c8d0d8;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.material-icons {
+  font-size: 40px;
+}
+
+#root {
+  display: flex;
+}
