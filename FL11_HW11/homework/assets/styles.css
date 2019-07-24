@@ -1,20 +1,28 @@
+body {
+  width: 1300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   text-align: center;
   color: #40b5fe;
 }
 
 hr {
-  color: #c8d0d8;
-  background-color: #c8d0d8;
-  height: 2px;
+  color: #e4f2fe;
+  background-color: #e4f2fe;
+  height: 4px;
   border: none;
+  margin-top: 20px;
 }
 
 input {
   width: 95%;
   border: 2px solid #c8d0d8;
   border-radius: 5px;
-  padding: 12px;
+  padding: 15px;
 }
 
 button {
@@ -23,12 +31,13 @@ button {
   border: none;
   cursor: pointer;
   overflow: hidden;
+  height: 40px;
 }
 
-.material-icons {
-  font-size: 40px;
-}
-
-#root {
+.input {
   display: flex;
+}
+
+::placeholder {
+  color: #a5a5a5;
 }
